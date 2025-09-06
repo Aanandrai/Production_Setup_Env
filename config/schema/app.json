@@ -1,0 +1,26 @@
+{
+  "env": {
+    "doc": "Application environment",
+    "format": ["production", "development", "test"],
+    "default": "development",
+    "env": "NODE_ENV"
+  },
+  "port": {
+    "doc": "Port to bind the server to",
+    "format": "port",
+    "default": 3000,
+    "env": "PORT"
+  },
+  "host": {
+    "doc": "Host address to bind the server to",
+    "format": "ipaddress",
+    "default": "127.0.0.1",
+    "env": "HOST"
+  },
+  "adminEmail": {
+    "doc": "Admin email address",
+    "format": "email",
+    "default": "admin@example.com",
+    "env": "ADMIN_EMAIL"
+  }
+}

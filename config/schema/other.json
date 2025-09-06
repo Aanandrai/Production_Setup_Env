@@ -1,0 +1,9 @@
+{
+    "db":{
+        "doc":"Database address",
+        "format":"url",
+        "default":"https://localhost:3000",
+        "env":"NODE_ENV"
+
+    }
+}

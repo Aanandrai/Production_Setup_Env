@@ -1,0 +1,20 @@
+{
+  "name": "envcofiglearn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cjson": "^0.5.0",
+    "convict": "^6.2.4",
+    "convict-format-with-validator": "^6.2.0",
+    "express": "^5.1.0",
+    "lodash": "^4.17.21"
+  }
+}
